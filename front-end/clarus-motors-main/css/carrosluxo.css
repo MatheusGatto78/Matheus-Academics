@@ -1,0 +1,68 @@
+.conteudo {
+    max-width: 62.5rem;
+    background: #000000;
+    padding: 2rem;
+    gap: 2rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.introducao-img {
+    display: flex;
+    gap: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cars img {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.introducao-img::-webkit-scrollbar {
+    background: #222;
+}
+
+.introducao-img::-webkit-scrollbar-thumb {
+    background: #ffbb00;
+    border-radius: 5px;
+}
+
+.introducao-img img {
+    height: 19rem;
+    margin: 10px;
+}
+
+.introducao h2 {
+    font-size: 4rem;
+}
+
+.introducao p {
+    text-align: center;
+    margin: 10px;
+}
+
+.introducao {
+    text-align: center;
+}
+
+.botao {
+    background: #ffbb00;
+    color: #302300;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-top: 300px;
+}
+
+.botao:hover {
+    background: #900;
+}

@@ -1,0 +1,15 @@
+.rodape {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.footer {
+    font-size: 15px;
+}
+
+.red {
+    color: #ffbb00;
+    font-size: 2rem;
+}

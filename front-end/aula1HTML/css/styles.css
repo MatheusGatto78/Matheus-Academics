@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(home.css);
+
+:root {
+    --primary-color: #00CED1;
+    --secundary-color: #008080;
+    --tamanho-titulo: 80px;
+    --cor-titulo: #ffffff;
+}
+
+body{
+    background-color: var(--primary-color);
+    text-align: center;
+}

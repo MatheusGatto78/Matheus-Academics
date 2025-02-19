@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .introducao-img {
+            display: flex;
+            gap: 10px;
+            overflow-x: scroll;
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .introducao-img::-webkit-scrollbar {
+            background-color: rgb(152, 152, 152);
+            border-radius: 10px;
+        }
+
+        .introducao-img::-webkit-scrollbar-thumb {
+            background-color: rgb(250, 183, 0);
+            border-radius: 10px;
+
+        }
+
+        .introducao-img img {
+            width: 400px;
+        }
+
+    </style>
+
+    <div class="centralizar">
+        <div class="introducao-img">
+            <span>Stark Classic.</span>
+            <img src="./img/cinza.jpg" alt="">
+            <span>Stark Premium.</span>
+            <img src="./img/branco.jpg" alt="">
+            <span>Stark Pro.</span>
+            <img src="./img/stark.jpg" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    font-size: 2rem
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    display: block;
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    border-color: #ffbb00;
+}

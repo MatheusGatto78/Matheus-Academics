@@ -1,0 +1,11 @@
+.titulo{
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-titulo);
+}
+
+@media screen and (max-width: 375px){
+    .titulo{
+        font-size: 18px ;
+        color: var(--cor-titulo);
+    }
+}

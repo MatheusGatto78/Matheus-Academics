@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid layout aula</title>
+</head>
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: 200px 200px;
+        gap: 20px;
+
+    }
+
+    .grid div {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <div class="grid">
+        <main>
+            <div>Teste2</div>
+            <div>Teste3</div>
+        </main>
+        <div>Teste4</div>
+    </div>
+</body>
+
+</html>
